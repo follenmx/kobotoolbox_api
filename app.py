@@ -34,5 +34,5 @@ def get_data(url: str, token: str) -> pd.DataFrame:
     df_csv = pd.read_csv(csv_data, delimiter=';')
     return df_csv
 
-df = get_data(url, 234)
+df = get_data(url, api_token)
 
